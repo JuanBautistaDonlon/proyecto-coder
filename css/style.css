@@ -359,6 +359,14 @@ p{
     text-align: center;
 }
 
+.formulario{
+    background-color: black;
+}
+
+.mb-3{
+    color: white;
+}
+
 footer{
     display: flex;
     justify-content: center;
