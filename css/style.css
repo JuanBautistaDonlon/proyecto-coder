@@ -1,33 +1,30 @@
-a{
+a {
     text-decoration: none;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-p{
-    color: black;
-}
-
 .nav-link {
     font-size: 20px;
     color: rgb(196, 196, 196);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: white;
 }
 
-.bg-menu{
+.bg-menu {
     background-color: rgb(0, 0, 0);
 }
 
-.hero{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+.hero {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     display: flex;
     padding: 15px;
@@ -36,120 +33,120 @@ p{
     background-color: black;
 }
 
-.hero div p{
+.hero div p {
     font-size: 30px;
     margin: 20px;
     color: rgb(196, 196, 196);
 }
 
-.hero div h1{
+.hero div h1 {
     font-size: 40px;
     margin: 20px;
     color: rgb(196, 196, 196);
 }
 
-.hero div iframe{
+.hero div iframe {
     width: 100vh;
 }
 
-.imagen h2{
+.imagen h2 {
     font-size: 40px;
     margin: 20px;
     color: rgb(196, 196, 196);
 }
 
-.imagen p{
+.imagen p {
     font-size: 30px;
     margin: 20px;
     color: rgb(196, 196, 196);
 }
 
-.imagen div{
+.imagen div {
     align-content: center;
 }
 
-.imagen{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+.imagen {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     display: flex;
     padding: 15px;
     background-color: black;
 }
 
-.imagen div img{
+.imagen div img {
     width: 900px;
 }
 
 
-.pasados .pasados-contenedores{
+.pasados .pasados-contenedores {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.pasados h2{
+.pasados h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.pasados div img{
+.pasados div img {
     width: 300px;
 }
 
-.pasados-contenedores{
+.pasados-contenedores {
     background-color: black;
 }
 
-.pasados .pasados-contenedores div{
+.pasados .pasados-contenedores div {
     border: 2px solid white;
     width: 303px;
     height: 630px;
     text-align: center;
     margin: 5px;
-    box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
--webkit-box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
--moz-box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
 }
 
-.pasados div h3{
+.pasados div h3 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
 
-.pasados div a{
+.pasados div a {
     border: 2px solid white;
     background-color: black;
     color: rgb(196, 196, 196);
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
 
-.pasados div a:hover{
+.pasados div a:hover {
     color: white;
     background-color: rgb(196, 196, 196);
 }
 
-.eventos-pasados div img{
+.eventos-pasados div img {
     width: 300px;
 }
 
-.eventos-pasados .eventos-pasados-contenedores{
+.eventos-pasados .eventos-pasados-contenedores {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.eventos-pasados .eventos-pasados-contenedores div{
+.eventos-pasados .eventos-pasados-contenedores div {
     border: 2px solid white;
     width: 304px;
     height: 600px;
@@ -157,59 +154,39 @@ p{
     margin: 15px;
 }
 
-.eventos-pasados{
+.eventos-pasados {
     background-color: black;
 }
 
-.eventos-pasados h2{
+.eventos-pasados h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.eventos-pasados div h3{
+.eventos-pasados div h3 {
     color: white;
     font-size: 20px;
     margin: 15px;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.eventos-pasados div a{
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-}
-
-.proximos h2{
+.proximos h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-.proximos h2:hover{
+.proximos h2:hover {
     color: rgb(196, 196, 196);
-}
-
-.mb-3{
-    width: 50vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-}
-
-.formulario .ubicacion{
-    display: flex;
 }
 
 .fotos-eventos {
@@ -218,136 +195,136 @@ p{
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 300px;
     gap: 15px;
-    background-color: black ;
+    background-color: black;
 }
 
 
-.highlights h2{
+.highlights h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.fotos-eventos-2{
+.fotos-eventos-2 {
     grid-column: span 2;
     grid-row: span 2;
 }
 
-.fotos-eventos-11{
+.fotos-eventos-11 {
     grid-row: span 2;
 }
 
-.fotos-eventos-15{
+.fotos-eventos-15 {
     grid-column: span 2;
 }
 
-.fotos-eventos-18{
+.fotos-eventos-18 {
     grid-column: span 2;
 }
 
-.fotos-eventos div img{
+.fotos-eventos div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
-.videos{
+.videos {
     background-color: black;
 }
 
-.videos div iframe{
+.videos div iframe {
     margin: 5px;
     flex-wrap: wrap;
-    
+
 }
 
-.productos{
+.productos {
     background-color: black;
 }
 
-.productos h2{
+.productos h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.productos .productos-contenedores{
+.productos .productos-contenedores {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.productos .productos-contenedores div{
+.productos .productos-contenedores div {
     border: 2px solid white;
     width: 353px;
     height: 560px;
     text-align: center;
     margin: 5px;
-    box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
--webkit-box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
--moz-box-shadow: 10px 10px 20px -10px rgba(255,255,255,0.75);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
 }
 
-.productos .productos-contenedores img{
+.productos .productos-contenedores img {
     width: 350px;
 }
 
-.productos-contenedores h3{
+.productos-contenedores h3 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     margin: 15px;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.productos-contenedores a{
+.productos-contenedores a {
     border: 2px solid white;
     background-color: black;
     color: rgb(196, 196, 196);
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
 
-.productos-contenedores a:hover{
+.productos-contenedores a:hover {
     color: white;
     background-color: rgb(196, 196, 196);
 }
 
-.tabla-talles h2{
+.tabla-talles h2 {
     background-color: white;
     color: black;
     border: 2px solid white;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tabla-talles{
+.tabla-talles {
     background-color: black;
 }
 
-.tabla-talles p{
+.tabla-talles p {
     font-size: 20px;
     margin: 20px;
     color: rgb(196, 196, 196);
 }
 
-.tabla-talles h3{
+.tabla-talles h3 {
     color: rgb(196, 196, 196);
     font-size: 20px;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tabla-talles div{
+.tabla-talles div {
     display: inline-block;
 }
 
@@ -355,19 +332,25 @@ p{
     text-align: center;
 }
 
-.tabla-talles .buzos{
+.tabla-talles .buzos {
     text-align: center;
 }
 
-.formulario{
+.formulario {
     background-color: black;
 }
 
-.mb-3{
-    color: white;
+.formulario .ubicacion {
+    display: flex;
 }
 
-footer{
+.mb-3 {
+    color: white;
+    width: 50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,93 +358,97 @@ footer{
     background-color: black;
 }
 
-footer h2{
+footer h2 {
     text-align: center;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-footer div img{
+footer div img {
     width: 40px;
 }
 
 
-@media screen and (max-width:1300px){
-    .hero{
+@media screen and (max-width:1300px) {
+    .hero {
         flex-direction: column;
         align-items: center;
     }
 }
 
-@media screen and (max-width:1300px){
-    .imagen{
+@media screen and (max-width:1300px) {
+    .imagen {
         flex-direction: column;
         align-items: center;
     }
 }
 
-@media screen and (max-width:1000px){
-    .fotos-eventos-2{
+@media screen and (max-width:1000px) {
+    .fotos-eventos-2 {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
 
-@media screen and (max-width:900px){
-    .fotos-eventos-11{
+@media screen and (max-width:900px) {
+    .fotos-eventos-11 {
         grid-column: span 1;
         grid-row: span 1;
     }
-    .fotos-eventos-15{
+
+    .fotos-eventos-15 {
         grid-column: span 1;
         grid-row: span 1;
     }
-    .fotos-eventos-18{
+
+    .fotos-eventos-18 {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
 
-@media screen and (max-width:905px){
-    .imagen div img{
+@media screen and (max-width:905px) {
+    .imagen div img {
         display: none;
     }
 }
 
-@media screen and (max-width:855px){
-    .hero iframe{
+@media screen and (max-width:855px) {
+    .hero iframe {
         display: none;
     }
 }
 
-@media screen and (max-width:700px){
-    header{
+@media screen and (max-width:700px) {
+    header {
         flex-direction: column;
     }
-    .fotos-eventos{
+
+    .fotos-eventos {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width:500px){
-    .fotos-eventos{
+@media screen and (max-width:500px) {
+    .fotos-eventos {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width:475px){
-    .videos iframe{
+@media screen and (max-width:475px) {
+    .videos iframe {
         width: 300px;
     }
 }
 
-@media screen and (max-width:400px){
-    .productos .productos-contenedores div{
+@media screen and (max-width:400px) {
+    .productos .productos-contenedores div {
         width: 250px;
         height: 450px;
     }
-    .productos .productos-contenedores img{
+
+    .productos .productos-contenedores img {
         width: 246px;
     }
 }

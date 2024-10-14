@@ -1,0 +1,13 @@
+.nav-link {
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.bg-menu {
+    background-color: rgb(0, 0, 0);
+}

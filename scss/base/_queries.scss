@@ -1,0 +1,82 @@
+@media screen and (max-width:1300px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .imagen {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .fotos-eventos-2 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .fotos-eventos-11 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .fotos-eventos-15 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .fotos-eventos-18 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:905px) {
+    .imagen div img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .hero iframe {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .fotos-eventos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .fotos-eventos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:475px) {
+    .videos iframe {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .productos .productos-contenedores div {
+        width: 250px;
+        height: 450px;
+    }
+
+    .productos .productos-contenedores img {
+        width: 246px;
+    }
+}
