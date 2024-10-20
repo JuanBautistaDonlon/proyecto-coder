@@ -57,7 +57,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
+@media screen and (max-width:635px) {
+    .tabla-talles .remeras table {
+        width: 200px;
+    }
+    .tabla-talles .buzos table {
+        width: 200px;
+    }
+}
 @media screen and (max-width:500px) {
     .fotos-eventos {
         grid-template-columns: repeat(1, 1fr);

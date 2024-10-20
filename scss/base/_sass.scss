@@ -1,0 +1,9 @@
+$color-principal: black;
+$color-secundario: #c4c4c4;
+$color-terciario: white;
+
+@mixin flex ($flex, $justify, $wrap) {
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}

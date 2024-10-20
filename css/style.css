@@ -311,12 +311,6 @@ a {
     background-color: black;
 }
 
-.tabla-talles p {
-    font-size: 20px;
-    margin: 20px;
-    color: rgb(196, 196, 196);
-}
-
 .tabla-talles h3 {
     color: rgb(196, 196, 196);
     font-size: 20px;
@@ -324,26 +318,160 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tabla-talles div {
-    display: inline-block;
+.tabla-talles div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tabla-talles .remeras {
-    text-align: center;
+    color: #343a40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    font-size: 20px;
+}
+.tabla-talles .remeras table{
+    width: 600px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+.tabla-talles .remeras th, td{
+    padding: 8px 12px;
+    text-align: left;
+}
+.tabla-talles .remeras thead th{
+    background-color: #363636;
+    color: rgb(196, 196, 196);
+    width: 25%;
+}
+.tabla-talles .remeras tbody tr:nth-child(odd){
+    background-color: #f8f9fa;
+}
+.tabla-talles .remeras tbody tr:nth-child(even){
+    background-color: #e9ecef;
 }
 
 .tabla-talles .buzos {
-    text-align: center;
+    color: #343a40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    font-size: 20px;
+}
+.tabla-talles .buzos table{
+    width: 600px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+.tabla-talles .buzos th, td{
+    padding: 8px 12px;
+    text-align: left;
+}
+.tabla-talles .buzos thead th{
+    background-color: #363636;
+    color: rgb(196, 196, 196);
+    width: 25%;
+}
+.tabla-talles .buzos tbody tr:nth-child(odd){
+    background-color: #f8f9fa;
+}
+.tabla-talles .buzos tbody tr:nth-child(even){
+    background-color: #e9ecef;
 }
 
-.formulario {
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
     background-color: black;
 }
-
-.formulario .ubicacion {
-    display: flex;
+input[type=text], input[type=mail], textarea {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    background-color:#4d4d4d;
+    border-bottom: 1px solid #cecece;
 }
-
+input[type=text]:focus, input[type=mail]:active {
+    background: transparent;
+}
+.contenedor {
+    width: min(1000px, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.75);
+}
+.formulario {
+    background-color: #4d4d4d;
+    padding: 3%;
+    width: 50%;
+    height: 100%;
+}
+.informacion {
+    width: 50%;
+    height: 100%;
+    background-color: #cecece;
+    padding: 4%;
+}
+.informacion .cabeza {
+    height: 20%;
+    width: 100%;
+}
+.informacion .cuerpo {
+    height: 70%;
+    width: 100%;
+}
+.informacion img {
+    width: 30px;
+    height: 30px;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid #EADBC8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #EADBC8;
+    color: #0F2C59;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ul li {
+    margin: 4% 0;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lista img {
+    margin-right: 5%;
+    background-color: transparent;
+    padding: 1%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
 .mb-3 {
     color: white;
     width: 50vh;
@@ -429,10 +557,20 @@ footer div img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
+@media screen and (max-width:635px) {
+    .tabla-talles .remeras table {
+        width: 200px;
+    }
+    .tabla-talles .buzos table {
+        width: 200px;
+    }
+}
 @media screen and (max-width:500px) {
     .fotos-eventos {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .informacion{
+        display: none;
     }
 }
 
