@@ -68,7 +68,7 @@
     .pasados-contenedores {
         width: 100%;
         background-color: $color-principal;
-        @include flex(flex,space-around,wrap);
+        @include flex(flex, space-around, wrap);
 
         div {
             border: 2px solid $color-terciario;
@@ -147,7 +147,7 @@
 
     .eventos-pasados-contenedores {
         width: 100%;
-        @include flex(flex,space-around,wrap);
+        @include flex(flex, space-around, wrap);
 
         div {
             border: 2px solid $color-terciario;
@@ -237,7 +237,7 @@
     }
 
     .productos-contenedores {
-        @include flex(flex,space-around,wrap);
+        @include flex(flex, space-around, wrap);
 
         div {
             border: 2px solid $color-terciario;
